@@ -3,9 +3,9 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
-    .about-container {
+    .about-containers {
         flex-wrap: wrap;
-    }
+    } 
 }
 
 @media screen and (max-width: 1200px) {
@@ -16,7 +16,7 @@
        display: flex; 
     }
 
-    #experience,
+  #experience,
     .experiance-details-conatiner {
         margin-top: 2rem;
     }
@@ -45,12 +45,12 @@
         margin: 0 auto 2rem;
     }
 
-    .about-container {
+    .about-containers {
         margin-top: 0;
     }
 }
 
-@media screen and (max-width: 600px;){
+@media screen and (max-width: 600px){
     #contact,
     footer {
         height: 40vh;
@@ -70,10 +70,14 @@
         margin-bottom: 2rem;
     }
 
-    .about-container,
+    .about-containers,
     .contact-info-upper-container,
     .btn-container {
         flex-wrap: wrap;
+    }
+
+    .contact-info-container {
+        margin: 0;
     }
 
     .contact-info-container p,

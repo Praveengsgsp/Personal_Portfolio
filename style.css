@@ -145,7 +145,7 @@ a:hover {
     transform: none;
 }
 
-/* section */
+/* PROFILE SECTION*/
 
 section {
     padding: 4vh;
@@ -176,6 +176,7 @@ section {
 
 .section__text p {
     text-align: center;
+    align-items: center; 
 }
 
 .section__text__p1 {
